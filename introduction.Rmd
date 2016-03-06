@@ -1,0 +1,12 @@
+---
+title: "How to use this app"
+output: html_document
+---
+
+A Multi-Dimensional Bayesian Scaling model was fitted over $100,000$ ratings of the Movielens data. The parameter space is high dimensional and it becomes very painful to check out individual plots. This app can be used to check the typical diagnostic convergence plots for MCMC chains like running means plot and MCMC standard error plot. Additionally marginal densities after $N_c/2$ and $N_c$, where $N_c$ is the number of samples in the chain, can also be compared for any parameter.
+
+Here we give a brief description of all the parameters stored as lists, matrices or vectors and the procedure to select any parameter from the sidebar panel in *Plotter*.
+
+1. 
+
+
