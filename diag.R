@@ -40,7 +40,7 @@
 ## sourcing batchmeans function used to calculate MCMC standard
 ## errors later
 source("http://www.stat.psu.edu/~mharan/batchmeans.R")
-load(file = "/Users/Amal/Desktop/csamp5000/t4c.RData")
+load(file = "t4c.RData")
 
 # mh.draws<-mcmc(Mult.chains[[6]][[1]][[5]])
 # plot(mh.draws)
